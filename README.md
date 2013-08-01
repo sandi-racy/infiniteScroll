@@ -1,19 +1,28 @@
-jQuery Infinite Scroll
+<h1>jQuery Infinite Scroll</h1>
+<hr/>
+<h3>How to use</h3>
 
-How to use
+HTML
+<pre>
+  &lt;div id="wrapper"&gt;
+    &lt;p&gt;Line 1&lt;/p&gt;
+    &lt;p&gt;Line 2&lt;/p&gt;
+    &lt;p&gt;Line 3&lt;/p&gt;
+    &lt;a class="url" data-href="http://yourweb/yourfile.php"&gt;
+  &lt;/div&gt;
+</pre>
 
-/* client side */
-<div id="wrapper">
-  <p>Line 1</p>
-  <p>Line 2</p>
-  <p>Line 3</p>
-  <a class="url" data-href="http://yourweb/yourfile.php">
-</div>
+Call jQuery Infinite Scroll
+<pre>
+  $('#wrapper').infiniteScroll();
+</pre>
 
-/* yourfile.php */
-if(allDataHaveBeenLoaded()){
-  echo 'done';
-}
-else{
-  //whatever you want to display
-}
+yourfile.php
+<pre>
+  if(allDataHaveBeenLoaded()){
+    echo 'done';
+  }
+  else{
+    //whatever you want to display
+  }
+</pre>
