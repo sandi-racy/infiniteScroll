@@ -64,6 +64,16 @@ yourfile.php
       <td>loading</td>
     </tr>  
     <tr>
+      <td>animation</td>
+      <td>The animation of displaying next data (available animation : fade or slide)</td>
+      <td>fade</td>
+    </tr>
+    <tr>
+      <td>animationSpeed</td>
+      <td>The speed of your animation, its can slow, fast, or speed of millisecond</td>
+      <td>slow</td>
+    </tr>    
+    <tr>
       <td>done</td>
       <td>Something you want to display when all data have been loaded</td>
       <td>&lt;div style="text-align:center;">It\'s done.&lt;/div&gt;</td>
