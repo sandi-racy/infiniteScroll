@@ -42,7 +42,7 @@ $.fn.infiniteScroll = function(options){
 			});
 		}
 	});
-}
+};
 
 /*Default Properties*/
 $.fn.infiniteScroll.defaults = {
@@ -63,11 +63,11 @@ $.fn.infiniteScroll.defaults = {
 	},
 	success: function(){},
 	onFinish: function(){}
-}
+};
 
 /* Infinite Scroll No Conflict*/
-var old = $.fn.infiniteScroll
+var old = $.fn.infiniteScroll;
 $.fn.infiniteScroll.noConflict = function(){
-	$.fn.infiniteScroll = old
-	return this
+	$.fn.infiniteScroll = old;
+	return this;
 }
