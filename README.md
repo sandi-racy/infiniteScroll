@@ -94,9 +94,10 @@ To disable it, just do
       <td>&lt;div style="text-align:center;">It\'s done.&lt;/div&gt;</td>
     </tr>  
  </tbody>
- 
- <h3>Event Hooks</h3>
- <table>
+</table>
+
+<h3>Event Hooks</h3>
+<table>
   <thead>
     <tr>
       <th>Event</th>
@@ -105,16 +106,16 @@ To disable it, just do
   </thead>
   <tbody>
     <tr>
-      <td>classNextSelector</td>
-      <td>Class Selector to fetch next data</td>
+      <td>onLoad</td>
+      <td>Doing something when loading next data</td>
     </tr>  
     <tr>
-      <td>dataAttributeNextSelector</td>
-      <td>Data attribute that contain url to fetch next data</td>
+      <td>success</td>
+      <td>Doing something when loading is success</td>
     </tr>  
      <tr>
-      <td>enable</td>
-      <td>Enabling jQuery Infinite Scroll</td>
+      <td>onFinish</td>
+      <td>Doing something when all data have been loaded</td>
     </tr>  
  </tbody>
 </table>
