@@ -21,7 +21,7 @@ HTML
   &lt;/div&gt;
 </pre>
 
-Call jQuery Infinite Scroll
+Calling jQuery Infinite Scroll
 <pre>
   $('#wrapper').infiniteScroll();
 </pre>
@@ -58,7 +58,7 @@ To disable it, just do
     </tr>  
     <tr>
       <td>dataAttributeNextSelector</td>
-      <td>Data attribute that contain url to fetch next data</td>
+      <td>Data attribute that containing url to fetch next data</td>
       <td>href</td>
     </tr>  
      <tr>
@@ -68,7 +68,7 @@ To disable it, just do
     </tr>  
     <tr>
       <td>resultWord</td>
-      <td>The word that tell jQuery Infinite Scroll that all data have been loaded</td>
+      <td>The word that telling jQuery Infinite Scroll that all data have been loaded</td>
       <td>done</td>
     </tr>  
     <tr>
@@ -83,7 +83,7 @@ To disable it, just do
     </tr> 
     <tr>
       <td>startAt</td>
-      <td>The position of scroll bar to star fetch next data (0 &lt;= startAt &lt;= 1)</td>
+      <td>The position of scroll bar to start fetch next data (0 &lt;= startAt &lt;= 1)</td>
       <td>1</td>
     </tr>     
     <tr>
@@ -93,7 +93,7 @@ To disable it, just do
     </tr>
     <tr>
       <td>animationSpeed</td>
-      <td>The speed of your animation, its can slow, fast, or speed of millisecond</td>
+      <td>The speed of your animation, it can be slow, fast, or speed of millisecond</td>
       <td>slow</td>
     </tr>    
     <tr>
