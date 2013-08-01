@@ -1,0 +1,37 @@
+body{
+	font-family: 'Fauna One';
+	margin: 0px;
+}
+
+.download{
+	background: #00f;
+	color: #fff;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+}
+
+.download a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.download a:hover{
+	text-decoration: underline;
+}
+
+h1{
+	font-family: Roboto;
+}
+
+.container{
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: center;
+	width: 900px;
+}
+
+.loading{
+	text-align: center;
+}
