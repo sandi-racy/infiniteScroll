@@ -49,7 +49,7 @@ To disable it, just do
       <td>.url:last</td>
     </tr>  
     <tr>
-      <td>dataNextSelector</td>
+      <td>dataAttributeNextSelector</td>
       <td>Data attribute that contain url to fetch next data</td>
       <td>href</td>
     </tr>  
