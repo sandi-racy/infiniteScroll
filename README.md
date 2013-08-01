@@ -28,6 +28,11 @@ yourfile.php
   }
 </pre>
 
+To disable it, just do
+<pre>
+  $("#wrapper").infiniteScroll('disable');
+</pre>
+
 <h3>Available Options</h3>
 <table>
   <thead>
@@ -62,7 +67,12 @@ yourfile.php
       <td>classLoading</td>
       <td>The class of something you want to display when jQuery Infinite Scroll fetch next data</td>
       <td>loading</td>
-    </tr>  
+    </tr> 
+    <tr>
+      <td>startAt</td>
+      <td>The position of scroll bar to star fetch next data (0 &lt;= startAt &lt;= 1)</td>
+      <td>1</td>
+    </tr>     
     <tr>
       <td>animation</td>
       <td>The animation of displaying next data (available animation : fade or slide)</td>
