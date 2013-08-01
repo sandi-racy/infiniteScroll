@@ -4,7 +4,7 @@
 		<title>jQuery Infinite Scroll</title>
 		<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css' />
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />		
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<div class="download">
@@ -27,7 +27,7 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-		<script type="text/javascript" src="infiniteScroll.min.js"></script>
+		<script type="text/javascript" src="js/infiniteScroll.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$("#wrapper").infiniteScroll({
