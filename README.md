@@ -30,7 +30,7 @@ yourfile.php
 
 To disable it, just do
 <pre>
-  $("#wrapper").infiniteScroll('disable');
+  $("#wrapper").infiniteScroll({enable:false});
 </pre>
 
 <h3>Available Options</h3>
@@ -52,6 +52,11 @@ To disable it, just do
       <td>dataAttributeNextSelector</td>
       <td>Data attribute that contain url to fetch next data</td>
       <td>href</td>
+    </tr>  
+     <tr>
+      <td>enable</td>
+      <td>Enabling jQuery Infinite Scroll</td>
+      <td>true</td>
     </tr>  
     <tr>
       <td>resultWord</td>
@@ -87,6 +92,29 @@ To disable it, just do
       <td>done</td>
       <td>Something you want to display when all data have been loaded</td>
       <td>&lt;div style="text-align:center;">It\'s done.&lt;/div&gt;</td>
+    </tr>  
+ </tbody>
+ 
+ <h3>Event Hooks</h3>
+ <table>
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Explanations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>classNextSelector</td>
+      <td>Class Selector to fetch next data</td>
+    </tr>  
+    <tr>
+      <td>dataAttributeNextSelector</td>
+      <td>Data attribute that contain url to fetch next data</td>
+    </tr>  
+     <tr>
+      <td>enable</td>
+      <td>Enabling jQuery Infinite Scroll</td>
     </tr>  
  </tbody>
 </table>
