@@ -15,7 +15,7 @@
 			<h1>jQuery Infinite Scroll</h1>
 			<div id="wrapper">
 				<?php
-					require_once('koneksi.php');
+					require_once('conn.php');
 					$mysqli = new mysqli($host, $username, $password, $db);
 					$datas = $mysqli->query("SELECT content FROM data LIMIT 0,6");
 					while($data = $datas->fetch_object()){
@@ -27,7 +27,7 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-		<script type="text/javascript" src="infiniteScroll.js"></script>
+		<script type="text/javascript" src="infiniteScroll.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$("#wrapper").infiniteScroll({

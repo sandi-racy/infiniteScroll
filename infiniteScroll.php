@@ -1,5 +1,5 @@
 <?php
-	require_once('koneksi.php');
+	require_once('conn.php');
 	$page = $_GET['page'];
 	$perPage = 6;
 	$offset = $page * $perPage;
