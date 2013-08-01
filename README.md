@@ -1,5 +1,6 @@
 <h1>jQuery Infinite Scroll</h1>
 <hr/>
+<h3>Demo</h3>
 <a href="http://www.21studio.p.ht" target="_blank">http://www.21studio.p.ht/infiniteScroll</a>
 <h3>How to use</h3>
 HTML
