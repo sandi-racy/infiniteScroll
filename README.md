@@ -39,7 +39,7 @@ yourfile.php
   </thead>
   <tbody>
     <tr>
-      <td>nextSelector</td>
+      <td>classNextSelector</td>
       <td>Selector to fetch next data</td>
       <td>.url:last</td>
     </tr>  
