@@ -1,7 +1,15 @@
 <h1>jQuery Infinite Scroll</h1>
 <hr/>
+
 <h3>Demo</h3>
 <a href="http://www.21studio.p.ht" target="_blank">http://www.21studio.p.ht/infiniteScroll</a>
+
+<h3>What's new in version 1.1</h3>
+<ol>
+  <li>Adding event hooks</li>
+  <li>Adding property enable</li>
+</ol>
+
 <h3>How to use</h3>
 HTML
 <pre>
