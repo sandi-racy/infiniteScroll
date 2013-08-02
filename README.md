@@ -8,6 +8,7 @@
 <ol>
   <li>Adding event hooks</li>
   <li>Adding property enable</li>
+  <li>jQuery No Conflict Support</li>
 </ol>
 
 <h3>How to use</h3>
