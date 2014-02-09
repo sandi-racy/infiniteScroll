@@ -6,7 +6,7 @@
 
 <h3>What's new in version 1.2</h3>
 <ol>
-    <li>Now support bower, just type <strong><u>bower install infiniteScroll</u></strong></li>
+    <li>Now support bower, just type <strong>bower install infiniteScroll</strong></li>
 </ol>
 
 <h3>What's new in version 1.1</h3>
