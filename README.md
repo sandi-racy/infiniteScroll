@@ -4,6 +4,11 @@
 <h3>Demo</h3>
 <a href="http://www.21studio.p.ht" target="_blank">http://www.21studio.p.ht/infiniteScroll</a>
 
+<h3>What's new in version 1.2</h3>
+<ol>
+    <li>Now support bower, just type <strong>bower install infiniteScroll</strong></li>
+</ol>
+
 <h3>What's new in version 1.1</h3>
 <ol>
   <li>Adding event hooks</li>
