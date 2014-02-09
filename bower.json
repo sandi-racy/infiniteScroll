@@ -1,0 +1,8 @@
+{
+    "name": "infiniteScroll",
+    "version": "1.2",
+    "main": "js/infiniteScroll.min.js",
+    "dependencies": {
+        "jquery": "latest"
+    }
+}
