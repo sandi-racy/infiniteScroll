@@ -2,7 +2,7 @@
 <hr/>
 
 <h3>Demo</h3>
-<a href="http://www.21studio.p.ht" target="_blank">http://www.21studio.p.ht/infiniteScroll</a>
+<a href="http://www.21studio.p.ht" target="_blank">http://www.21studio.com/infiniteScroll</a>
 
 <h3>What's new in version 1.2</h3>
 <ol>
